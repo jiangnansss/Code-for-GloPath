@@ -1,4 +1,4 @@
-# CODE-GloPath-An-Entity-Centric-Foundation-Model-for-Glomerular-Pathology
-CODE: GloPath: An Entity-Centric Foundation Model for Glomerular Pathology
+# CODE-GloPath-A-FOundaiton-Model-for-Glomerular-Lesion-Assessment-and-Clinicopathological-Insights
+CODE: GloPath: A Foundation Model for Glomerular Lesion Assessment and Clinicopathological Insights
 
 The codes and model weights are under preparation and will be released as soon as possible.
