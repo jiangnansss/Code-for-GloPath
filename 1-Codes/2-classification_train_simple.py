@@ -29,7 +29,7 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 def parse():
-    parser = argparse.ArgumentParser(description='WSSS4LUAD')
+    parser = argparse.ArgumentParser(description='GloPath')
     parser.add_argument('--batchSize', type=int, default=8)
     parser.add_argument('--numWorkers', type=int, default=16)
     parser.add_argument('--nepoches', type=int, default=50)
