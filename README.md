@@ -61,8 +61,7 @@ python -m torch.distributed.launch --nproc_per_node=8 main_dino.py \
 - **Data:** For example, prepare PASM-stained glomeruli with lesion labels.
 - **Command:** 
 ```bash
-python run_with_submitit.py --nodes 2 --ngpus 8 --arch vit_small \
-  --data_path /path/to/dataset --output_dir /path/to/output
+python 2-classification_train_simple.py --logName lesion_recognition --lesionTarget 16 17 18 lesion_recognition cuda:1 pasm
 ```
 - Outputs fine-tuned weights for downstream tasks.
 
